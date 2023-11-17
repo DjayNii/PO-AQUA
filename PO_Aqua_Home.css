@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+.sideBox{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(43, 43, 38);
+    color: rgb(236,236,233);
+    transition: 0.15s;
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+    top: 0;
+    width: 400px;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+    .sideBox {
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%; 
+      height: 100%; 
+    }
+}
+
+
+.sideBoxText{
+    position: absolute;
+    top: 275px;
+    background-color: rgba(86, 86, 83, 0.1);
+    color:lightgoldenrodyellow;
+    border-radius: 250px;
+}
+
+.aboutUs{
+    background-color: lightblue;
+    border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    transition: 0.15s;
+    font-family:  Montserrat, sans-serif;
+    display: block;
+}
+
+.aboutUs:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+
+.aboutUs:focus{
+    background-color: white;
+    color: lightseagreen;
+}
+
+.mainTitle{
+display: inline-block;
+font-family: 'Tilt Warp', sans-serif;
+font-size: 42px;
+margin-bottom: 0;
+}
+
+.subTitle{
+display: inline-block;
+font-family: Montserrat;
+font-size: 20px;
+margin-top: 15px;
+margin-bottom: 30px;
+}
+
+.mainimage{
+    max-width: calc(100% - 400px);
+    display: inline-block;
+    margin-bottom: 0%;
+}
+.mainText{
+    max-width: calc(100% - 400px);
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+body{
+    background-color: rgba(170, 204, 0,0.7);
+
+}

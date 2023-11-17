@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="POAQUA - Organic Farming Company">
+    <meta name="keywords" content="organic, farming, POAQUA">
+    <meta name="author" content="Your Name">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+
+    <title>POAQUA - Organic Farming Company' About us
+    </title>
+
+    <style>
+        body {
+            background-color: rgb(132, 243, 21);;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            border-radius: 50px;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        .aheading {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        form {
+            margin: 20px;
+        }
+
+        .home{
+            
+                background-color: rgba(255, 255, 255, 1);
+                border: none;
+                height: 40px;
+                width: 80px;
+                border-radius: 20px;
+                color: chocolate;
+                margin-left: auto;
+                margin-right: auto;
+                font-weight: bold;
+                transition: 0.15s;
+                font-family:  Tahoma, sans-serif
+            }
+
+            .home:hover{
+                background-color: rgba(210, 105, 30,0.9);
+                color: white;
+            }
+
+            .home:focus{
+                background-color: rgba(210, 105, 30,0.6);
+            }
+            .main{
+                font-family: Tilt Wrap, sans-serif;
+            }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="main" >Welcome to POAQUA - Organic Farming Company</h1>
+        <button class="home" title="Go to home page" onclick="goToHome()">
+            Home
+        </button>
+    </header>
+   
+
+    <section>
+        <h2   class="aheading">About Us</h2>
+        <p>POAQUA is a leading organic farming company committed to providing high-quality organic produce. Our mission
+            is to promote sustainable agriculture and a healthier lifestyle.</p>
+    </section>
+
+    <section>
+        <h2>Our Products</h2>
+        <ul>
+            <li>Organic Fruits</li>
+            <li>Organic Vegetables</li>
+            <li>Organic Herbs</li>
+            <li>Organic Grains</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="1" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 POAQUA - Organic Farming Company. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function goToHome() {
+          window.location.href = "Po-Aqua home.html";
+        }
+      </script>
+
+</body>
+
+</html>
